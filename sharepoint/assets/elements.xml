@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+    <CustomAction
+        Title="ArtemisFloatingBot"
+        Location="ClientSideExtension.ApplicationCustomizer"
+        ClientSideComponentId="44954188-4b4b-4d7b-ae2d-96947b7f6a08"
+        ClientSideComponentProperties="{&quot;runtimeEndpoint&quot;:&quot;https://uae-agents.kore.ai&quot;,&quot;projectId&quot;:&quot;01a1a016-a43c-758b-8a9f-6c5791720fa8&quot;,&quot;backendUrl&quot;:&quot;https://sharepoint-fy0q.onrender.com&quot;,&quot;apiResource&quot;:&quot;api://9c9fc0b1-e471-4642-bff8-d5753f17ff68&quot;,&quot;title&quot;:&quot;Chat with us&quot;}">
+    </CustomAction>
+</Elements>

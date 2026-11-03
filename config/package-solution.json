@@ -1,0 +1,48 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "artemis-sharepoint-chat-client-side-solution",
+    "id": "8b4ad3a2-2168-4dc9-9679-8a42be986ede",
+    "version": "1.0.3.0",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "webApiPermissionRequests": [
+      {
+        "resource": "KoreAI Artemis SharePoint Connector",
+        "scope": "access_as_user"
+      }
+    ],
+    "developer": {
+      "name": "",
+      "websiteUrl": "",
+      "privacyUrl": "",
+      "termsOfUseUrl": "",
+      "mpnId": "Undefined-1.24.0"
+    },
+    "metadata": {
+      "shortDescription": {
+        "default": "artemis-sharepoint-chat description"
+      },
+      "longDescription": {
+        "default": "artemis-sharepoint-chat description"
+      },
+      "screenshotPaths": [],
+      "videoUrl": "",
+      "categories": []
+    },
+    "features": [
+      {
+        "title": "artemis-sharepoint-chat Feature",
+        "description": "The feature that activates elements of the artemis-sharepoint-chat solution.",
+        "id": "62e8ea9f-a773-4d6b-934d-aa90b752d87d",
+        "version": "1.0.0.0",
+        "assets": {
+          "elementManifests": ["elements.xml", "ClientSideInstance.xml"]
+        }
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/artemis-sharepoint-chat.sppkg"
+  }
+}

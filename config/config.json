@@ -1,0 +1,26 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "artemis-chat-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/artemisChat/ArtemisChatWebPart.js",
+          "manifest": "./src/webparts/artemisChat/ArtemisChatWebPart.manifest.json"
+        }
+      ]
+    },
+    "artemis-floating-bot-application-customizer": {
+      "components": [
+        {
+          "entrypoint": "./lib/extensions/artemisFloatingBot/ArtemisFloatingBotApplicationCustomizer.js",
+          "manifest": "./src/extensions/artemisFloatingBot/ArtemisFloatingBotApplicationCustomizer.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "ArtemisChatWebPartStrings": "lib/webparts/artemisChat/loc/{locale}.js"
+  }
+}

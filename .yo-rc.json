@@ -1,0 +1,18 @@
+{
+  "@microsoft/generator-sharepoint": {
+    "useGulp": false,
+    "plusBeta": false,
+    "isCreatingSolution": true,
+    "nodeVersion": "22.23.3",
+    "sdksVersions": {},
+    "version": "1.24.0",
+    "libraryName": "artemis-sharepoint-chat",
+    "libraryId": "8b4ad3a2-2168-4dc9-9679-8a42be986ede",
+    "environment": "spo",
+    "packageManager": "npm",
+    "solutionName": "artemis-sharepoint-chat",
+    "solutionShortDescription": "artemis-sharepoint-chat description",
+    "skipFeatureDeployment": true,
+    "componentType": "webpart"
+  }
+}
